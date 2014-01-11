@@ -1,0 +1,80 @@
+/*style.css for Spencer Eldred's About me page*/
+body {
+	background: ;
+	text-align: center;
+	font-family: 'Kite One', sans-serif;
+}
+article {
+	margin: 10px 20% 10px 20%;
+	text-align: center;
+}
+header > img {
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	-webkit-border-radius: 105px;
+	-moz-border-radius: 105px;
+	border-radius: 105px;
+}
+
+ul.report_card > li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+ul.work_history, ul.personal_interests > li {
+	list-style:  none;
+}
+button {
+	background: black;
+	width: 140px;
+	height: 40px;
+	font-size: 1.1em;
+	opacity: 0.4;
+	color: white;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+
+}
+button:hover {
+	opacity: 0.7;
+}
+#hof {
+	height: 100px;
+	width: 100px;
+	border: 2px solid white;
+	-webkit-border-radius: 55px;
+	-moz-border-radius: 55px;
+	border-radius: 55px;
+}
+#hof:hover {
+	height: 200px;
+	width: 200px;
+	border: 2px solid white;
+	-webkit-border-radius: 105px;
+	-moz-border-radius: 105px;
+	border-radius: 105px;
+}
+img[class="fish"] {
+   height: 100px;
+   width: 100px;
+   margin: 0 10px 0 10px;
+   border: 2px solid black;
+}
+img[class="fish"]:hover {
+   height: 400px;
+   width: 400px;
+   margin: 0 10px 0 10px;
+   border: 2px solid black;
+}
+hr {
+	text-align: center;
+	width: 60%;
+}
+footer {
+	text-align: center;
+	font-size: 1em;
+	text-align: center;
+	
+}
+
